@@ -1,0 +1,122 @@
+#Principio {
+    background-image: url(marble-1006628_1280.jpg);
+    padding: 15px;
+    border: 3px solid rgb(16, 46, 43);
+    font-family: 'Butler', serif;
+    text-align: center;
+    font-size: 27px;
+    color: rgb(46, 43, 39);
+}
+
+#logoP {
+    float: left;
+    margin-right: 20px;
+}
+
+#logoP img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#Info main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.item {
+    width: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center; 
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    background-color: rgb(29, 26, 26);
+    box-shadow: 0px 1px 10px rgba(105, 104, 104, 0.2);
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: translateY(-5px);
+}
+
+.Stand {
+    padding: 10px;
+}
+
+.Stand h3 {
+    margin: 0;
+}
+
+.Stand p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.item:hover .img {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Info2{
+    font-size: 20px;
+}
+
+.Info3{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+body {
+    background-image: url(black-370118_1280.png);
+    color: white; 
+}
+
+
+.item.expanded {
+    width: 400px; 
+}
+.Instagram img{
+    width: 150px;
+    height: 150px;
+}
+.cnc img{
+    width: 150px;
+    height: 150px;
+    
+
+}
+.Instagram,
+.cnc{
+    display: inline-block;
+}
+
+.Contactar,
+.Stv,
+.Drc{
+    display: inline-block;
+    padding: 10px;
+
+}
+.Drc img{
+    width: 150px;
+    height: 150px;
+}
+.Stv img{
+    width: 60px;
+    height: 60px;
+}
+
